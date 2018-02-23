@@ -12,6 +12,11 @@
 		E37CCAA7200F633D000A1D37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E37CCAA5200F633D000A1D37 /* Main.storyboard */; };
 		E37CCAA9200F633D000A1D37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E37CCAA8200F633D000A1D37 /* Assets.xcassets */; };
 		E37CCAAC200F633D000A1D37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E37CCAAA200F633D000A1D37 /* LaunchScreen.storyboard */; };
+		E37CCAB7200F64E9000A1D37 /* cetys-114.png in Resources */ = {isa = PBXBuildFile; fileRef = E37CCAB3200F64E9000A1D37 /* cetys-114.png */; };
+		E37CCAB8200F64E9000A1D37 /* cetys.png in Resources */ = {isa = PBXBuildFile; fileRef = E37CCAB4200F64E9000A1D37 /* cetys.png */; };
+		E37CCAB9200F64E9000A1D37 /* ufv-57.png in Resources */ = {isa = PBXBuildFile; fileRef = E37CCAB5200F64E9000A1D37 /* ufv-57.png */; };
+		E37CCABA200F64E9000A1D37 /* ufv.png in Resources */ = {isa = PBXBuildFile; fileRef = E37CCAB6200F64E9000A1D37 /* ufv.png */; };
+		E37CCABD200F65BE000A1D37 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E37CCABC200F65BE000A1D37 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		E37CCAA8200F633D000A1D37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E37CCAAB200F633D000A1D37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E37CCAAD200F633D000A1D37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E37CCAB3200F64E9000A1D37 /* cetys-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cetys-114.png"; sourceTree = "<group>"; };
+		E37CCAB4200F64E9000A1D37 /* cetys.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cetys.png; sourceTree = "<group>"; };
+		E37CCAB5200F64E9000A1D37 /* ufv-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ufv-57.png"; sourceTree = "<group>"; };
+		E37CCAB6200F64E9000A1D37 /* ufv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ufv.png; sourceTree = "<group>"; };
+		E37CCABC200F65BE000A1D37 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E37CCABD200F65BE000A1D37 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +51,7 @@
 			children = (
 				E37CCAA0200F633D000A1D37 /* MapasEjemplo */,
 				E37CCA9F200F633D000A1D37 /* Products */,
+				E37CCABB200F65BE000A1D37 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +66,10 @@
 		E37CCAA0200F633D000A1D37 /* MapasEjemplo */ = {
 			isa = PBXGroup;
 			children = (
+				E37CCAB3200F64E9000A1D37 /* cetys-114.png */,
+				E37CCAB4200F64E9000A1D37 /* cetys.png */,
+				E37CCAB5200F64E9000A1D37 /* ufv-57.png */,
+				E37CCAB6200F64E9000A1D37 /* ufv.png */,
 				E37CCAA1200F633D000A1D37 /* AppDelegate.swift */,
 				E37CCAA3200F633D000A1D37 /* ViewController.swift */,
 				E37CCAA5200F633D000A1D37 /* Main.storyboard */,
@@ -62,6 +78,14 @@
 				E37CCAAD200F633D000A1D37 /* Info.plist */,
 			);
 			path = MapasEjemplo;
+			sourceTree = "<group>";
+		};
+		E37CCABB200F65BE000A1D37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E37CCABC200F65BE000A1D37 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +147,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E37CCAB8200F64E9000A1D37 /* cetys.png in Resources */,
 				E37CCAAC200F633D000A1D37 /* LaunchScreen.storyboard in Resources */,
 				E37CCAA9200F633D000A1D37 /* Assets.xcassets in Resources */,
 				E37CCAA7200F633D000A1D37 /* Main.storyboard in Resources */,
+				E37CCABA200F64E9000A1D37 /* ufv.png in Resources */,
+				E37CCAB7200F64E9000A1D37 /* cetys-114.png in Resources */,
+				E37CCAB9200F64E9000A1D37 /* ufv-57.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
